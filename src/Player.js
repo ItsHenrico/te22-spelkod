@@ -8,7 +8,7 @@ export default class Player extends GameObject {
         this.game = game
 
         this.image = new Image()
-        this.image.src = "./src/assets/Player-pixel-2.png"
+        this.image.src = "/images/Player-pixel-2.png"
 
         this.frameWidth = 64
         this.frameHeight = 64

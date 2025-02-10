@@ -23,3 +23,6 @@
 
 ### 01-27
 1. Jag fixade det sista med wallclimben och walljumpen så allt fungerar som det ska.  
+
+### 02-03
+1. Wow vad coolt och episkt vi är klara fr fr

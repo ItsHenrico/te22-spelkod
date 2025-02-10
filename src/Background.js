@@ -7,9 +7,9 @@ export default class Background {
     this.height = 1080
     this.gameon = true
     this.ml = new Image()
-    this.ml.src = "./src/assets/FG-pixel.png"
+    this.ml.src = "/images/FG-pixel.png"
     this.sl = new Image()
-    this.sl.src = "./src/assets/BG-pixel.png"
+    this.sl.src = "/images/BG-pixel.png"
 
     this.backgroundLayers = [
       new Layer(this.game, this.width, this.height, 0.01, this.sl),
