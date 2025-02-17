@@ -21,7 +21,7 @@ export default class UserInterface {
         100
       )
       
-      if (this.game.gameTime < 15){
+      if (this.game.gameTime < 15000){
         context.textAlign = 'center'
         context.font = `50px ${this.fontFamily}`
         context.fillText(
