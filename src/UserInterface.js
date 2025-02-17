@@ -20,14 +20,16 @@ export default class UserInterface {
         20,
         100
       )
-  
-      context.textAlign = 'center'
+      
+      if (this.game.gameTime < 15){
+        context.textAlign = 'center'
         context.font = `50px ${this.fontFamily}`
         context.fillText(
-          'Arrows to move\n Shift to grab\n Ctrl to dash\n',
+          'Arrows to move, Shift to grab, Ctrl to dash',
           this.game.width / 2,
           this.game.height / 2 - 20
         )
+      }
 
       if (this.game.gameOver) {
         context.textAlign = 'center'
