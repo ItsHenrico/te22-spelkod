@@ -21,6 +21,14 @@ export default class UserInterface {
         100
       )
   
+      context.textAlign = 'center'
+        context.font = `50px ${this.fontFamily}`
+        context.fillText(
+          'WOHOO!',
+          this.game.width / 2,
+          this.game.height / 2 - 20
+        )
+
       if (this.game.gameOver) {
         context.textAlign = 'center'
         context.font = `50px ${this.fontFamily}`
