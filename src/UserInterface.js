@@ -21,11 +21,11 @@ export default class UserInterface {
         100
       )
       
-      if (this.game.gameTime < 15000){
+      if (this.game.gameTime < 3000){
         context.textAlign = 'center'
         context.font = `50px ${this.fontFamily}`
         context.fillText(
-          'Arrows to move, Shift to grab, Ctrl to dash',
+          'Arrows to move, Ctrl to grab, Shift to dash',
           this.game.width / 2,
           this.game.height / 2 - 20
         )
